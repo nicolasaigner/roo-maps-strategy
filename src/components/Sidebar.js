@@ -7,7 +7,7 @@ const Sidebar = ({ setMapFile, onStartDrawing }) => {
 
     return (
         <div className="sidebar p-4 bg-gray-800 h-full flex flex-col items-center shadow-lg">
-            <h2 className="text-2xl mb-4 font-bold">Map Controls</h2>
+            <h2 className="text-2xl mb-4 font-bold">Fadegreen (Prontera)</h2>
 
             <button
                 onClick={() => handleMapChange('/assets/svgs/1A.svg')}

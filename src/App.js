@@ -1,25 +1,31 @@
-import logo from './logo.svg';
+import React, { useState, useRef } from 'react';
+import Map from './components/Map';
+import Sidebar from './components/Sidebar';
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const [svgObject, setSvgObject] = useState(null);
+    const [mapFile, setMapFile] = useState('/assets/svgs/2A.svg');
+    const mapRef = useRef();
+
+    const handleSvgLoad = (object) => {
+        setSvgObject(object);
+    };
+
+    const handleStartDrawing = () => {
+        if (mapRef.current) {
+            mapRef.current.startDrawing();
+        }
+    };
+
+    return (
+        <div className="flex h-screen bg-gray-900 text-white">
+            <Sidebar setMapFile={setMapFile} onStartDrawing={handleStartDrawing} />
+            <div className="flex-1 p-4 flex items-center justify-center">
+                <Map ref={mapRef} onLoad={handleSvgLoad} mapFile={mapFile} />
+            </div>
+        </div>
+    );
 }
 
 export default App;

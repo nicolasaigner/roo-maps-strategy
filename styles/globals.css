@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #__next {
+    height: 100%;
+}
+
+.map-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #090F14;
+}
+
+.sidebar {
+    width: 250px;
+}

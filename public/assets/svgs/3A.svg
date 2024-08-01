@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 350 450">
+    <g stroke="#32d1e3">
+        <!--        Bordas-->
+        <path d="M0,0 L66,0 L66,80 L39,80 L39,84 L66,84 L66,120 L78,120 L78,37 L104,37 L104,53 L114,53 L114,37 L179,37 L179,96 L167,96 L167,175 L178,175 L178,270 L106,270 L106,258 L159,258 L159,252 L99,252 L99,276 L68,276 L68,226 L115,226 L115,176 L128,176 L128,96 L114,96 L114,80 L104,80 L104,211 L59,211 L59,245 L43,245 L43,223 L24,223 L24,245 L5,245 L5,211 L-40,211 L-40,80 L-50,80 L-50,96 L-66,96 L-66,175 L-48,175 L-48,226 L-3,226 L-3,276 L-32,276 L-32,250 L-90,250 L-90,255 L-38,255 L-38,273 L-112,273 L-112,176 L-104,176 L-104,96 L-112,96 L-112,44 L-89,44 L-89,36 L-49,36 L-49,54 L-40,54 L-40,37 L-14,37 L-14,120 L0,120 L0,84 L26,84 L26,79 L0,79 Z M1,1 L1,78 L27,78 L27,85 L1,85 L1,121 L-15,121 L-15,38 L-39,38 L-39,55 L-50,55 L-50,37 L-88,37 L-88,45 L-111,45 L-111,95 L-103,95 L-103,177 L-111,177 L-111,272 L-39,272 L-39,256 L-91,256 L-91,249 L-31,249 L-31,275 L-4,275 L-4,227 L-49,227 L-49,176 L-67,176 L-67,95 L-51,95 L-51,79 L-39,79 L-39,210 L6,210 L6,244 L23,244 L23,222 L44,222 L44,244 L58,244 L58,210 L103,210 L103,79 L115,79 L115,95 L129,95 L129,177 L116,177 L116,227 L69,227 L69,275 L98,275 L98,251 L160,251 L160,259 L107,259 L107,269 L177,269 L177,176 L166,176 L166,95 L178,95 L178,38 L115,38 L115,54 L103,54 L103,38 L79,38 L79,121 L65,121 L65,85 L38,85 L38,79 L65,79 L65,1 Z " transform="translate(113,1)"/>
+
+        <!--        Centro esquerda -->
+        <path d="M0,0 L15,0 L15,36 L41,36 L41,54 L28,54 L28,42 L0,42 Z M1,1 L1,41 L29,41 L29,53 L40,53 L40,37 L14,37 L14,1 Z " transform="translate(98,135)"/>
+        <!--        Centro direita -->
+        <path d="M0,0 L14,0 L14,41 L-12,41 L-12,54 L-26,54 L-26,36 L0,36 Z M1,1 L1,37 L-25,37 L-25,53 L-13,53 L-13,40 L13,40 L13,1 Z " transform="translate(178,135)"/>
+
+        <!--        Segundo mapa-->
+        <path d="M0,0 L19,0 L19,3 L20,3 L20,4 L22,4 L22,5 L31,5 L31,4 L33,4 L33,3 L34,3 L34,0 L54,0 L54,50 L17,50 L17,58 L54,58 L54,96 L37,96 L37,127 L16,127 L16,96 L0,96 L0,80 L8,80 L8,65 L0,65 L0,36 L22,36 L22,33 L0,33 Z M1,1 L1,32 L23,32 L23,37 L1,37 L1,64 L9,64 L9,81 L1,81 L1,95 L17,95 L17,126 L36,126 L36,95 L53,95 L53,59 L16,59 L16,49 L53,49 L53,1 L35,1 L35,4 L34,4 L34,5 L32,5 L32,6 L21,6 L21,5 L19,5 L19,4 L18,4 L18,1 Z " transform="translate(295,38)"/>
+
+        <!--        Ponto 1-->
+        <circle id="p1" cx="20" cy="20" r="15" transform="translate(11,200)" fill="#32d1e3"/>
+        <text x="31" y="225" text-anchor="middle" stroke="#000000" stroke-width="2px" >1</text>
+
+        <!--        Ponto 2-->
+        <circle id="p2" cx="20" cy="20" r="15" transform="translate(240,200)" fill="#32d1e3"/>
+        <text x="260" y="225" text-anchor="middle" stroke="#000000" stroke-width="2px" >2</text>
+
+        <!--        Ponto 3-->
+        <circle id="p3" cx="20" cy="20" r="15" transform="translate(11,50)" fill="#32d1e3"/>
+        <text x="31" y="75" text-anchor="middle" stroke="#000000" stroke-width="2px" >3</text>
+
+        <!--        Ponto 4-->
+        <circle id="p4" cx="20" cy="20" r="15" transform="translate(240,50)" fill="#32d1e3"/>
+        <text x="260" y="75" text-anchor="middle" stroke="#000000" stroke-width="2px" >4</text>
+
+        <!--        Ponto 5-->
+        <circle id="p5" cx="20" cy="20" r="15" transform="translate(125,185)" fill="#32d1e3"/>
+        <text x="145" y="210" text-anchor="middle" stroke="#000000" stroke-width="2px" >5</text>
+
+        <!--        Ponto 6-->
+        <circle id="p6" cx="20" cy="20" r="15" transform="translate(125,110)" fill="#32d1e3"/>
+        <text x="145" y="135" text-anchor="middle" stroke="#000000" stroke-width="2px" >6</text>
+
+        <!--        Ponto 7-->
+        <circle id="p7" cx="20" cy="20" r="15" transform="translate(125,20)" fill="#32d1e3"/>
+        <text x="145" y="45" text-anchor="middle" stroke="#000000" stroke-width="2px" >7</text>
+
+        <!--        Portal 1-->
+        <polygon points="140,20 155,50 125,50" fill="#E21D6F" stroke="#E21D6F" transform="translate(181,145)" />
+        <text x="320" y="190" text-anchor="middle" stroke="#000000" stroke-width="2px" >1</text>
+
+        <!--        Portal 2-->
+        <polygon points="140,20 155,50 125,50" fill="#E21D6F" stroke="#E21D6F" transform="translate(100,250)" />
+        <text x="240" y="295" text-anchor="middle" stroke="#000000" stroke-width="2px" >2</text>
+
+        <!--        Portal 3-->
+        <polygon points="140,20 155,50 125,50" fill="#E21D6F" stroke="#E21D6F" transform="translate(55,250)" />
+        <text x="195" y="295" text-anchor="middle" stroke="#000000" stroke-width="2px" >3</text>
+
+        <!--        Portal 4-->
+        <polygon points="140,20 155,50 125,50" fill="#E21D6F" stroke="#E21D6F" transform="translate(-45,250)" />
+        <text x="95" y="295" text-anchor="middle" stroke="#000000" stroke-width="2px" >4</text>
+
+        <!--        Portal 5-->
+        <polygon points="140,20 155,50 125,50" fill="#E21D6F" stroke="#E21D6F" transform="translate(-85,250)" />
+        <text x="55" y="295" text-anchor="middle" stroke="#000000" stroke-width="2px" >5</text>
+    </g>
+</svg>

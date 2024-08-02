@@ -171,13 +171,13 @@ const Map = ({ mapFile }) => {
 
                 <Tooltip id="my-tooltip" />
 
-                <button
-                    onClick={downloadAsPNG}
-                    className="p-2 bg-gray-800 rounded-full hover:bg-gray-700 mt-2"
-                    data-tooltip-id="download-tooltip" data-tooltip-content="Baixar como PNG"
-                >
-                    <FaDownload />
-                </button>
+                {/*<button*/}
+                {/*    onClick={downloadAsPNG}*/}
+                {/*    className="p-2 bg-gray-800 rounded-full hover:bg-gray-700 mt-2"*/}
+                {/*    data-tooltip-id="download-tooltip" data-tooltip-content="Baixar como PNG"*/}
+                {/*>*/}
+                {/*    <FaDownload />*/}
+                {/*</button>*/}
 
                 <Tooltip id="download-tooltip" />
             </div>
